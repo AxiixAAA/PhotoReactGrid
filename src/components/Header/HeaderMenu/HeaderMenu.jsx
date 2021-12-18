@@ -8,14 +8,23 @@ export const HeaderMenu = () =>{
 
     const [cheked, setCheked] = useState(false);
 
-    return<>
-        <div className={s.HeaderMenuContainer} onClick={() => setCheked(true)}>
-            <div></div>   <div></div>  <div></div>     
-        </div>
+    const activateEditMode = () =>{
+        setCheked(true);
+    }
+    const deactivateEditMode = () =>{
+        setCheked(false);
+    }
 
+    return<>
+    
         {cheked
-            ? <SidebarClosed />
-            : <SidebarOpen />
+            ? <div className={s.HeaderMenuContainer} onClick={deactivateEditMode}> <div></div>   <div></div>  <div></div>   </div> 
+            : <div className={s.HeaderMenuContainer} onClick={activateEditMode}> <div></div>   <div></div>  <div></div>   </div>
         }
+           
+        {cheked
+            ? <SidebarOpen />
+            : <SidebarClosed />
+        } 
     </>
 }
