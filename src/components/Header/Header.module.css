@@ -1,0 +1,8 @@
+.HeaderContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    background-color: #373737;
+    width: 100%;
+    height: 70px;
+}

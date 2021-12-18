@@ -1,0 +1,10 @@
+.HeaderLogoContainer{
+    display: flex;
+    align-items: center;
+}
+.logoText{
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing:7px;
+    font-family: 'Shadows Into Light', cursive;
+}
