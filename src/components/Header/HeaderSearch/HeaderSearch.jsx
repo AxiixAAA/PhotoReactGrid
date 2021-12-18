@@ -1,20 +1,12 @@
 import React from "react";
-// import s from "./HeaderSearch.module.css";
-// import { reduxForm } from "redux-form"
+import s from "./HeaderSearch.module.css";
 
 export const HeaderSearch = () =>{
 
     return<>
-{/*         
-            <form onSubmit={handleSubmit}>
-               
-            </form> */}
-      
+        <div className={s.HeaderSearchContainer}>
+            <div className={s.PoiskSubmit}> <button /> </div>
+            <div className={s.PoiskText}> <input type="text" placeholder="Поиск фото..."/> </div>
+        </div>
     </>
 }
-
-// eslint-disable-next-line no-lone-blocks
-{/* <div className={s.HeaderSearchContainer}>
-    <div class="PoiskSubmit"><input type="submit" value=" "></div>
-<div class="PoiskText"><input type="text" name="" id="" placeholder="Поиск фото..."></div> 
-  </div>*/}

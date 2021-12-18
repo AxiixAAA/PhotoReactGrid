@@ -1,0 +1,26 @@
+.HeaderSearchContainer{
+    display: flex;
+}
+.HeaderSearchContainer button{
+    width: 50px;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    background: #222222 url("../../../assets/img/search.svg") no-repeat;
+    background-size: 50% 60% ;
+    background-position: 50% 50%;
+    border-right: #757575 1px solid;
+    border-radius: 3px 0px 0px 3px;
+}
+.HeaderSearchContainer input[type="text"]{
+    width: 350px;
+    height: 34px;
+    background-color:#222222;
+    color: white;
+    border: none;
+    border-radius: 0px 3px 3px 0px;
+    padding-left: 15px;
+    font-size: 15px;
+
+    outline:none;
+}
