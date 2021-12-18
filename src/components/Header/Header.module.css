@@ -1,8 +1,8 @@
 .HeaderContainer{
     display: grid;
-    grid-template-columns: 0.75fr 1.5fr 1fr 10fr;
+    grid-template-columns: 0.7fr 1.5fr 1fr 10fr;
     align-items: center;
-    position: absolute;
+    position: fixed;
 
     background-color: #373737;
     height: 50px;

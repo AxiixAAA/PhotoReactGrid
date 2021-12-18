@@ -1,7 +1,9 @@
 .HeaderMenuContainer{
-    margin-left: 25px;
+    margin-left: 20px;
     cursor: pointer;
+    width: 30px;
 }
+
 .HeaderMenuContainer div{
     width: 30px;
     height: 3px;

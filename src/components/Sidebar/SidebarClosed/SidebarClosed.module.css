@@ -1,0 +1,8 @@
+.SidebarClosedContainet{
+    height: 100%;
+    width: 60px;
+    background-color: #373737;
+
+    position: fixed;
+    z-index: -1;
+}

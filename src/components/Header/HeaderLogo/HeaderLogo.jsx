@@ -5,11 +5,11 @@ import s from "./HeaderLogo.module.css";
 export const HeaderLogo = () =>{
 
     return<>
-        <NavLink to="/#">
+        
             <div className={s.HeaderLogoContainer}>
-                <div class={s.logoIMG}>  <img src="https://img.icons8.com/fluency/48/000000/fox.png"/></div>
-                <div class={s.logoText}>XIDE </div>
+            <NavLink to="/#"><div class={s.logoIMG}>  <img src="https://img.icons8.com/fluency/48/000000/fox.png"/></div></NavLink>
+            <NavLink to="/#"><div class={s.logoText}>   XIDE </div></NavLink>
             </div>
-        </NavLink>
+        
     </>
 }
