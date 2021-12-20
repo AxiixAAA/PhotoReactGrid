@@ -1,0 +1,15 @@
+.app-wrapper{
+   display: grid;
+   grid-template-rows: 0fr 1fr;
+
+   /* gap: 50px; */
+}
+.Content{
+    display: grid;
+    grid-template-columns: 0.5fr 10fr;
+    
+}
+.ssss{
+    background-color: red;
+    margin-top: 5rem;
+}

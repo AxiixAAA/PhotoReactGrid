@@ -1,15 +1,18 @@
 .HeaderMenuContainer{
-    margin-left: 20px;
+    margin-left: 15px;
+    margin-top: 1rem;
     cursor: pointer;
     width: 30px;
+    z-index: 10;
 }
 
+/* 3-полоски */
 .HeaderMenuContainer div{
-    width: 30px;
+    max-width: 30px;
     height: 3px;
     background-color: white;
     margin-bottom: 7px;
 }
 .HeaderMenuContainer :last-child{
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 } 

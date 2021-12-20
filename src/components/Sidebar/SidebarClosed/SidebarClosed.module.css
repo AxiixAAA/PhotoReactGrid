@@ -2,7 +2,23 @@
     height: 100%;
     width: 60px;
     background-color: #373737;
-
+    
     position: fixed;
-    z-index: -1;
 }
+.MenuContainer{
+    display: grid;
+    justify-content: center;
+    padding-top: 20px;
+}
+.MenuContainer div{
+    width: 2.5rem;
+    height: 2.5rem;
+    /* margin: 0px 0px 10px 10px; */
+    border-radius: 100%;
+    border: 1px solid ;
+    cursor: pointer;
+}
+.MenuContainer div:hover{
+    background-color: grey;
+}
+

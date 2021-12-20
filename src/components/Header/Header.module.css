@@ -1,9 +1,10 @@
 .HeaderContainer{
     display: grid;
-    grid-template-columns: 0.5fr 1.3fr 1fr 10fr;
+    grid-template-columns: 0.6fr 1.2fr 1fr 10fr;
     align-items: center;
     position: fixed;
 
     background-color: #373737;
-    height: 50px;
+    height: 3.5rem;
+    z-index: -1;
 }

@@ -1,25 +1,23 @@
 .SidebarOpenContainet{
     height: 100%;
+    margin-top: 13px;
     background-color: #373737;
 
     position: fixed;
-    z-index: -1;
 }
 .MenuContainer{
     display: grid;
     justify-content: start;
-
-    padding-top: 20px;
 }
-.MenuContainer div{
+.MenuContainer a{
     display: flex;
     align-items: center;
 
     line-height: 250%;
-    width: 200px;
+    width: 249px;
     padding-left: 20px;
     cursor: pointer;
 }
-.MenuContainer div:hover{
+.MenuContainer a:hover{
     background-color: #444444;
 }

@@ -1,16 +1,18 @@
 import React from "react";
+import { NavLink } from 'react-router-dom';
 import s from "./SidebarOpen.module.css";
+
 
 export const SidebarOpen = () =>{
 
     return<>
         <div className={s.SidebarOpenContainet}>
             <div className={s.MenuContainer}>
-                <div>Все обои</div>
-                <div>Обои на телефон</div>
-                <div>Обои на рабочий стол</div>
-                <div>Красивые картинки</div>
-                <div>Обои для девочек</div>
+                <NavLink to="/ollPhoto">Все обои</NavLink>
+                <NavLink to="/photoTelephone">Обои на телефон</NavLink>
+                {/* <NavLink to="/PhotoDesctop">Обои на рабочий стол</NavLink>
+                <NavLink to="/BeautifulPictures">Красивые картинки</NavLink>
+                <NavLink to="/PhotoGirls">Обои для девочек</NavLink> */}
             </div>
         </div>
     </>

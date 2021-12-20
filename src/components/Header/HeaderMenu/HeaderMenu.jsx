@@ -16,15 +16,16 @@ export const HeaderMenu = () =>{
     }
 
     return<>
-    
+  
         {cheked
-            ? <div className={s.HeaderMenuContainer} onClick={deactivateEditMode}> <div></div>   <div></div>  <div></div>   </div> 
-            : <div className={s.HeaderMenuContainer} onClick={activateEditMode}> <div></div>   <div></div>  <div></div>   </div>
+            ? <div className={s.HeaderMenuContainer} onClick={deactivateEditMode}>  <div></div>   <div></div>  <div></div>   </div> 
+            : <div className={s.HeaderMenuContainer} onClick={activateEditMode}>    <div></div>   <div></div>  <div></div>   </div>
         }
-           
-        {!cheked
+  
+        {cheked
             ? <SidebarOpen />
             : <SidebarClosed />
         } 
+   
     </>
 }
