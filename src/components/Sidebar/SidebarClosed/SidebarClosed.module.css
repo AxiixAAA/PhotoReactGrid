@@ -3,7 +3,8 @@
     width: 60px;
     background-color: #373737;
     
-    position: fixed;
+    /* position: fixed; */
+    
 }
 .MenuContainer{
     display: grid;

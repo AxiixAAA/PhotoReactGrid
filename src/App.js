@@ -14,17 +14,17 @@ const App = () => {
             <div>
                 <Header />
             </div>
-            <div className='Content'>
                 
-                <div><HeaderMenu /></div>
-
-                <div className='ssss'>
-                    <Routes>
-                        <Route path="/" element={<OllPhoto />}/>
-                        <Route path="/ollPhoto" element={<OllPhoto />}/>
-                    </Routes>
+                <div className='wrapper'>
+                <div className='menu'><HeaderMenu /></div>
+                    <div className='pages'>
+                        <Routes>
+                            <Route path="/" element={<OllPhoto />}/>
+                            <Route path="/ollPhoto" element={<OllPhoto />}/>
+                        </Routes>
+                    </div>
                 </div>
-            </div>
+           
         </div>
     );
 }

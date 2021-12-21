@@ -1,15 +1,20 @@
 .app-wrapper{
    display: grid;
    grid-template-rows: 0fr 1fr;
+   /* background-color: red; */
 
-   /* gap: 50px; */
 }
-.Content{
+.wrapper{
     display: grid;
-    grid-template-columns: 0.5fr 10fr;
+    grid-template-columns: 0fr 1fr;
+    /* position: relative; */
+
+}
+.pages{
+    border: 1px solid red;
+    /* margin-top: 5rem; */
     
 }
-.ssss{
-    background-color: red;
-    margin-top: 5rem;
+.menu{
+    border: 1px solid;
 }

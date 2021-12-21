@@ -2,8 +2,6 @@
     height: 100%;
     margin-top: 13px;
     background-color: #373737;
-
-    position: fixed;
 }
 .MenuContainer{
     display: grid;
