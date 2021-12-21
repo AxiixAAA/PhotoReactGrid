@@ -10,9 +10,9 @@ export const SidebarOpen = () =>{
             <div className={s.MenuContainer}>
                 <NavLink to="/ollPhoto">Все обои</NavLink>
                 <NavLink to="/photoTelephone">Обои на телефон</NavLink>
-                {/* <NavLink to="/PhotoDesctop">Обои на рабочий стол</NavLink>
+                <NavLink to="/PhotoDesctop">Обои на рабочий стол</NavLink>
                 <NavLink to="/BeautifulPictures">Красивые картинки</NavLink>
-                <NavLink to="/PhotoGirls">Обои для девочек</NavLink> */}
+                <NavLink to="/PhotoGirls">Anime</NavLink>
             </div>
         </div>
     </>

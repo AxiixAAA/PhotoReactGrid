@@ -8,3 +8,8 @@
     letter-spacing:7px;
     font-family: 'Shadows Into Light', cursive;
 }
+@media (max-width: 769px) { 
+    .logoText{
+        font-size: 0px;
+    }
+}

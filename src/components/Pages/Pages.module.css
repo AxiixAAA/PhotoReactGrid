@@ -1,0 +1,21 @@
+.TopText h2, h5{
+    margin: 0px;
+    line-height: 0rem;
+}
+.TopText{
+    margin: 2rem 0px 2rem 0px;
+}
+
+.PhotoContainer{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    row-gap: 1.7em;
+}
+.PhotoContainer div{
+
+    width: 23%;
+    height: 10em;
+
+    border: 1px solid;
+}
