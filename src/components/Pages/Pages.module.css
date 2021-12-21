@@ -7,15 +7,21 @@
 }
 
 .PhotoContainer{
-    display: flex;
-    justify-content:space-between;
-    flex-wrap: wrap;
-    row-gap: 1.7em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 80vw;
 }
-.PhotoContainer div{
+.PhotoContainer div div{
+    padding: 1em;
+}
+.PhotoContainer div img{
+    height: 10.7vw;
+}
 
-    width: 23%;
-    height: 10em;
-
-    border: 1px solid;
+@media (max-width: 1024px) {
+    .PhotoContainer{
+     
+        grid-template-columns: 1fr 1fr 1fr ;
+ 
+    }
 }

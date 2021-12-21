@@ -4,7 +4,7 @@
 }
 .wrapper{
     display: grid;
-    grid-template-columns: 0fr 1fr;
+    grid-template-columns: 1fr 10fr;
 }
 .pages{
     border: 1px solid red;
