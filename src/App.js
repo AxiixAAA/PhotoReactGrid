@@ -11,12 +11,14 @@ const App = () => {
     
     return (
         <div className="app-wrapper">
-            <div>
+            <div className='header'>
                 <Header />
             </div>
                 
                 <div className='wrapper'>
-                <div className='menu'><HeaderMenu /></div>
+                    <div className='menu'>
+                        <HeaderMenu />
+                    </div>
                     <div className='pages'>
                         <Routes>
                             <Route path="/" element={<OllPhoto />}/>

@@ -1,20 +1,21 @@
 .app-wrapper{
    display: grid;
    grid-template-rows: 0fr 1fr;
-   /* background-color: red; */
-
 }
 .wrapper{
     display: grid;
     grid-template-columns: 0fr 1fr;
-    /* position: relative; */
-
 }
 .pages{
     border: 1px solid red;
-    /* margin-top: 5rem; */
-    
+    margin-top: 3.5em;
+    display: flex;
+    justify-content: center;
 }
 .menu{
-    border: 1px solid;
+    height: 94.5vh;
+    z-index: 100;
+}
+.header{
+    z-index: 90;
 }
