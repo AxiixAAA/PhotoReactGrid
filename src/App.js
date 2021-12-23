@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Header } from './components/Header/Header';
 import { HeaderMenu } from "./components/Header/HeaderMenu/HeaderMenu";
-import OllPhoto  from '././components/Pages/OllPhoto';
+import DesctopPhoto from "././components/Pages/DesctopPhoto";
 import { Route, Routes } from 'react-router-dom';
 
 
@@ -21,8 +21,8 @@ const App = () => {
                     </div>
                     <div className='pages'>
                         <Routes>
-                            <Route path="/" element={<OllPhoto />}/>
-                            <Route path="/ollPhoto" element={<OllPhoto />}/>
+                            <Route path="/" element={<DesctopPhoto />}/>
+                            <Route path="/desctopPhoto" element={<DesctopPhoto />}/>
                         </Routes>
                     </div>
                 </div>

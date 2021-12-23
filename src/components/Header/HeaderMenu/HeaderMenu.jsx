@@ -22,7 +22,7 @@ export const HeaderMenu = () =>{
             : <div className={s.HeaderMenuContainer} onClick={activateEditMode}>    <div></div>   <div></div>  <div></div>   </div>
         }
   
-        {!cheked
+        {cheked
             ? <SidebarOpen />
             : <SidebarClosed />
         } 

@@ -7,7 +7,6 @@
     grid-template-columns: 1fr 10fr;
 }
 .pages{
-    border: 1px solid red;
     margin-top: 3.5em;
     display: flex;
     justify-content: center;
@@ -18,4 +17,15 @@
 }
 .header{
     z-index: 90;
+}
+@media (max-width: 768px){
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .menu{
+        margin-top: -200px;
+        height: 0px;
+        /* z-index: -1; */
+    }
 }

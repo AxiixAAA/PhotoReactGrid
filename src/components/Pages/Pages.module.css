@@ -8,20 +8,52 @@
 
 .PhotoContainer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    max-width: 80vw;
+    grid-template-columns: repeat(4, 22%);
+    grid-column-gap: 2vw;
+    grid-row-gap: 1.5vw;
 }
-.PhotoContainer div div{
-    padding: 1em;
+.PhotoContainer div{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
 }
 .PhotoContainer div img{
-    height: 10.7vw;
+    /* height: 10.7vw; */
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
 }
-
+.PhotoContainer div a{
+    color:#777777;
+    width: 100%;
+    text-align: center;
+    background-color:#373737;
+    border-radius: 0px 0px 10px 10px;
+    padding-bottom: 3px;
+}
 @media (max-width: 1024px) {
     .PhotoContainer{
-     
-        grid-template-columns: 1fr 1fr 1fr ;
- 
+        grid-template-columns: repeat(3, 30%);
+        grid-gap: 1em;
+    }
+    .PhotoContainer div img{
+        /* height: 16vw; */
+    }
+}
+@media (max-width: 768px) {
+    .PhotoContainer{
+        grid-template-columns: repeat(2, 45%);
+        justify-content: center;
+    }
+    .PhotoContainer div img{
+        /* height: 23vw; */
+    }
+}
+@media (max-width: 480px) {
+    .PhotoContainer{
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    .PhotoContainer div img{
+        /* height: 70vw; */
     }
 }
