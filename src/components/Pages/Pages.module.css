@@ -18,7 +18,6 @@
     align-items:center;
 }
 .PhotoContainer div img{
-    /* height: 10.7vw; */
     width: 100%;
     border-radius: 10px 10px 0px 0px;
 }
@@ -35,25 +34,16 @@
         grid-template-columns: repeat(3, 30%);
         grid-gap: 1em;
     }
-    .PhotoContainer div img{
-        /* height: 16vw; */
-    }
 }
 @media (max-width: 768px) {
     .PhotoContainer{
         grid-template-columns: repeat(2, 45%);
         justify-content: center;
     }
-    .PhotoContainer div img{
-        /* height: 23vw; */
-    }
 }
 @media (max-width: 480px) {
     .PhotoContainer{
         grid-template-columns: 1fr;
         justify-content: center;
-    }
-    .PhotoContainer div img{
-        /* height: 70vw; */
     }
 }

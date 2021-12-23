@@ -2,9 +2,12 @@
     height: 100.5%;
     width: 60px;
     background-color: #373737;
-    
-    /* position: fixed; */
-    
+    position: fixed;
+}
+@media (max-width: 768px) {
+    .SidebarClosedContainet{
+        position: relative;
+    }
 }
 .MenuContainer{
     display: grid;

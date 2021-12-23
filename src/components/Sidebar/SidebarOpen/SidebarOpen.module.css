@@ -1,7 +1,8 @@
 .SidebarOpenContainet{
-    height: 99.5%;
+    height: 100%;
     margin-top: 18px;
     background-color: #373737;
+
 }
 .MenuContainer{
     display: grid;
