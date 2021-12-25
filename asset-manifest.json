@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/PhotoReactGrid/static/css/main.aa95c166.css",
+    "main.js": "/PhotoReactGrid/static/js/main.630192d6.js",
+    "static/media/TelephonePhoto4.jpg": "/PhotoReactGrid/static/media/TelephonePhoto4.75a76b6e783babde3e46.jpg",
+    "static/media/TelephonePhoto1.jpg": "/PhotoReactGrid/static/media/TelephonePhoto1.ed72c02ab5b5ac0f4611.jpg",
+    "static/media/TelephonePhoto3.png": "/PhotoReactGrid/static/media/TelephonePhoto3.c8d7a6f38e5dce7ae0da.png",
+    "static/media/TelephonePhoto8.jpg": "/PhotoReactGrid/static/media/TelephonePhoto8.7fa70cd34fe94cc2f519.jpg",
+    "static/media/BeautifulPhoto8.jpg": "/PhotoReactGrid/static/media/BeautifulPhoto8.bfe7dc6c9b6de10c15fa.jpg",
+    "static/media/Anime8.jpg": "/PhotoReactGrid/static/media/Anime8.d1d0cc456414afdf4ea2.jpg",
+    "static/media/Anime5.jpg": "/PhotoReactGrid/static/media/Anime5.0fb08aa022e088946fe4.jpg",
+    "static/media/BeautifulPhoto9.jpg": "/PhotoReactGrid/static/media/BeautifulPhoto9.30edbcabb3a22e6c6d63.jpg",
+    "static/media/Anime7.jpg": "/PhotoReactGrid/static/media/Anime7.3b4d06d7251deea71471.jpg",
+    "static/media/TelephonePhoto5.jpg": "/PhotoReactGrid/static/media/TelephonePhoto5.ebb2c592f3bec7dc3f0c.jpg",
+    "static/media/BeautifulPhoto2.jpg": "/PhotoReactGrid/static/media/BeautifulPhoto2.a8d2f7600c10f38f5476.jpg",
+    "static/media/BeautifulPhoto11.jpg": "/PhotoReactGrid/static/media/BeautifulPhoto11.70725b25c31a1695a93f.jpg",
+    "static/media/TelephonePhoto2.jpg": "/PhotoReactGrid/static/media/TelephonePhoto2.39a0d5338e642878bac1.jpg",
+    "static/media/Anime4.jpg": "/PhotoReactGrid/static/media/Anime4.9a16af771fd473f811a6.jpg",
+    "static/media/Anime1.jpg": "/PhotoReactGrid/static/media/Anime1.0914eda419ee189f64a3.jpg",
+    "static/media/BeautifulPhoto4.jpg": "/PhotoReactGrid/static/media/BeautifulPhoto4.c8abf66b37b82e1ff17a.jpg",
+    "static/media/Anime3.jpg": "/PhotoReactGrid/static/media/Anime3.a33dd1b7e76cae0f7870.jpg",
+    "static/media/Anime6.jpg": "/PhotoReactGrid/static/media/Anime6.89f49596a48438e2f4f2.jpg",
+    "static/media/BeautifulPhoto12.jpg": "/PhotoReactGrid/static/media/BeautifulPhoto12.96a8330353f336d4566f.jpg",
+    "static/media/TelephonePhoto6.jpg": "/PhotoReactGrid/static/media/TelephonePhoto6.c52e11205e67a0b8398f.jpg",
+    "static/media/BeautifulPhoto1.jpg": "/PhotoReactGrid/static/media/BeautifulPhoto1.0fe567204c4f22944a6d.jpg",
+    "static/media/BeautifulPhoto5.jpg": "/PhotoReactGrid/static/media/BeautifulPhoto5.a2d1bf065821ecbe09a9.jpg",
+    "static/media/BeautifulPhoto6.jpg": "/PhotoReactGrid/static/media/BeautifulPhoto6.283883a00ebd198b1de2.jpg",
+    "static/media/TelephonePhoto7.jpg": "/PhotoReactGrid/static/media/TelephonePhoto7.2234da079228bce47793.jpg",
+    "static/media/BeautifulPhoto7.jpg": "/PhotoReactGrid/static/media/BeautifulPhoto7.618cb3eb74f34d7ccdaf.jpg",
+    "static/media/BeautifulPhoto10.jpg": "/PhotoReactGrid/static/media/BeautifulPhoto10.474d106d3e878b4e557b.jpg",
+    "static/media/Anime2.jpg": "/PhotoReactGrid/static/media/Anime2.90bca2e17118d9da68a6.jpg",
+    "static/media/BeautifulPhoto3.jpg": "/PhotoReactGrid/static/media/BeautifulPhoto3.08a7f4113f3cca454d9b.jpg",
+    "static/media/search.svg": "/PhotoReactGrid/static/media/search.53d50a0e28137350ebdd.svg",
+    "index.html": "/PhotoReactGrid/index.html",
+    "main.aa95c166.css.map": "/PhotoReactGrid/static/css/main.aa95c166.css.map",
+    "main.630192d6.js.map": "/PhotoReactGrid/static/js/main.630192d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa95c166.css",
+    "static/js/main.630192d6.js"
+  ]
+}
