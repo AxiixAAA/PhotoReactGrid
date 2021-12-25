@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PhotoReactGrid/static/css/main.aa95c166.css",
-    "main.js": "/PhotoReactGrid/static/js/main.630192d6.js",
+    "main.js": "/PhotoReactGrid/static/js/main.6b738047.js",
     "static/media/TelephonePhoto4.jpg": "/PhotoReactGrid/static/media/TelephonePhoto4.75a76b6e783babde3e46.jpg",
     "static/media/TelephonePhoto1.jpg": "/PhotoReactGrid/static/media/TelephonePhoto1.ed72c02ab5b5ac0f4611.jpg",
     "static/media/TelephonePhoto3.png": "/PhotoReactGrid/static/media/TelephonePhoto3.c8d7a6f38e5dce7ae0da.png",
@@ -33,10 +33,10 @@
     "static/media/search.svg": "/PhotoReactGrid/static/media/search.53d50a0e28137350ebdd.svg",
     "index.html": "/PhotoReactGrid/index.html",
     "main.aa95c166.css.map": "/PhotoReactGrid/static/css/main.aa95c166.css.map",
-    "main.630192d6.js.map": "/PhotoReactGrid/static/js/main.630192d6.js.map"
+    "main.6b738047.js.map": "/PhotoReactGrid/static/js/main.6b738047.js.map"
   },
   "entrypoints": [
     "static/css/main.aa95c166.css",
-    "static/js/main.630192d6.js"
+    "static/js/main.6b738047.js"
   ]
 }
