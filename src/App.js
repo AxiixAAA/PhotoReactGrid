@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Header } from './components/Header/Header';
 import { HeaderMenu } from "./components/Header/HeaderMenu/HeaderMenu";
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 
 import DesctopPhoto     from "./components/Pages/DesctopPhoto";
 import PhotoTelephone   from "./components/Pages/PhotoTelephone";
@@ -23,8 +23,8 @@ const App = () => {
                 </div>
                 <div className='pages'>
                     <Routes>
-                        <Route path="/"                 element={<DesctopPhoto />}/>
                         <Route path="/desctopPhoto"     element={<DesctopPhoto />}/>
+                        <Route path="/" element={<Navigate replace to="/desctopPhoto" />} />
                         <Route path="/photoTelephone"   element={<PhotoTelephone />}/>
                         <Route path="/anime"            element={<Anime />}/>
                     </Routes>
